@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+    <h1>Thelle Mogoerane Regional Hospital</h1>
+    <br>
+<h2>Patient Form</h2>
+
+<form action="/submit_form">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob"><br>
+  <label for="gender-male">Male</label>
+  <input type="radio" name="gender" id="gender-male" value="male">
+  <label for="gender-female">Female</label>
+  <input type="radio" name="gender" id="gender-female" value="female"><br>
+  <label for="cellphone">Cellphone Number</label><br>
+  <input type="tel" name="cellphone" id="cellphone" pattern="^\d{3}-\d{3}-\d{4}$"><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br>
+
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
